@@ -1,0 +1,49 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+{#    Todo: Laad hier de hero snippet in #}
+{% include "_snippets/_item/_hero.twig" %}
+
+<div class="container">
+   <div class="flex">
+       <div class="w-2/3 p-10 bg-red-100">
+{#            #}{# Todo: Laad hier het contactformulier in #}
+    {{ craft.formie.renderForm("contactformulier") }}
+
+       </div>
+       <div class="w-1/3 p-10 pt-0">
+           <div class="flex">
+
+               <h3 class="text-3xl">
+{#                    #}{# Todo: Haal de naam van de applicatie hier dynamisch op #}
+                {{ systemName }}
+               </h3>
+
+               <h3 class="flex-auto w-14 border-b-4 border-red-700 m-auto mx-4 content-['']"></h3>
+           </div>
+
+{#            #}{# Todo: gebruik onderstaande div om de adresgegevens te tonen #}
+           <div class="mt-6">
+                <div>{{ adresGegevens.straatNr }}</div>
+                <div>{{ adresGegevens.postcodeEnWoonplaats }}</div>
+           </div>
+
+           {# #}{# Todo: gebruik onderstaande div om het e-mailadres en het telefoonnummer te tonen #}
+           <div class="mt-6">
+               <div class="mb-2">
+                   {{ svg('@webroot/img/mail.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+                   <a class="no-underline hover:underline"
+                      href="mailto:">{{ adresGegevens.eMail }}</a>
+               </div>
+
+               <div class="mb-2">
+                   {{ svg('@webroot/img/phone.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+                   <a href="tel:">{{ adresGegevens.telefoon }}</a>
+               </div>
+           </div>
+
+       </div>
+   </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+<div class="flex flex-wrap mt-6">
+
+    {# Todo: gebruik onderstaande div om de link naar facebook te leggen #}
+   <div class="mr-2">
+       {% if socialMedia.facebook|length %}
+       <a class=" {{ socialMedia.facebook }} " href="" target="_blank" rel="nofollow">
+           {{ svg('@webroot/img/facebook.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+       </a>
+       {% endif %}
+   </div>
+
+    {# Todo: gebruik onderstaande div om de link naar instagram te leggen #}
+   <div class="mr-2">
+    {% if socialMedia.instagram|length %}
+       <a class=" {{ socialMedia.instagram }} " href="" target="_blank" rel="nofollow">
+           {{ svg('@webroot/img/instagram.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+       </a>
+    {% endif %}
+
+   </div>
+
+    {# Todo: gebruik onderstaande div om de link naar youtube te leggen #}
+   <div class="mr-2">
+    {% if socialMedia.youtube|length %}
+       <a class=""
+          href=" {{ socialMedia.youtube }} " target="_blank" rel="nofollow">
+           {{ svg('@webroot/img/youtube.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+       </a>
+    {% endif %}
+
+   </div>
+
+</div>

@@ -1,0 +1,189 @@
+fieldLayouts:
+  2dc07b47-2b19-45ae-82fe-9e4834e0e7a8:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 02bab97e-4d43-4170-8908-75eb995c7b22
+            warning: null
+            width: 100
+          -
+            fieldUid: 37d8b71e-601f-443c-97ff-9651c9df1bdf # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4b4ba1c5-0548-4f68-b329-fbe9bb2fd2c9
+            warning: null
+            width: 100
+          -
+            fieldUid: 7f901268-d579-48b6-bfa3-fa760575c294 # id
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9a298e9-f749-43d8-8076-6175c365c76e
+            warning: null
+            width: 100
+          -
+            fieldUid: de3e9c80-cd88-4638-a2c8-9746aa3f34d4 # intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b97ff02e-1b85-4ca5-8679-c9e3b8b98e6f
+            warning: null
+            width: 100
+          -
+            fieldUid: a191c8cb-7c6a-4ca6-88b9-4ecb0fd50f0b # omschrijving
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 767a5351-3d6e-4ba6-bf6d-50882551469c
+            warning: null
+            width: 100
+          -
+            fieldUid: 9eb0182d-9859-4bb8-81d6-ceb7956e7f1f # type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09263180-4895-4d8d-861d-30c056bdad64
+            warning: null
+            width: 100
+          -
+            fieldUid: 48033176-11d8-48ec-ac84-3cdca61b0f3e # jaar van uitgave
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae11fb9c-a69c-4914-888c-217073eae129
+            warning: null
+            width: 100
+          -
+            fieldUid: 81081185-84c2-470e-ba57-395de2c9b8c5 # prijs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e8c55db6-2957-4412-8029-6ae59c4f6260
+            warning: null
+            width: 100
+          -
+            fieldUid: d345afb5-c74a-43bf-a5c5-39f5d2ebcb11 # korting
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3d65eab-4722-4d54-a932-9c2d6c35c93a
+            warning: null
+            width: 100
+          -
+            fieldUid: 579939e8-cbbb-4a2c-8890-9b4a92314c17 # afbeelding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fca03164-a05a-4eef-acf0-3fbb5d65d71c
+            warning: null
+            width: 100
+          -
+            fieldUid: 319c2b23-e634-42fa-bb6e-0bd1ccaee7a5 # min speeltijd
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f71eed8-63a6-4363-a4c1-2b80ae3faf73
+            warning: null
+            width: 100
+          -
+            fieldUid: b7b0d227-38e2-4c5b-88e9-de3cb4200f88 # max speeltijd
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1234a672-1b85-4fb2-aabc-3adda05140cc
+            warning: null
+            width: 100
+          -
+            fieldUid: e06962c6-0a40-4bfb-990e-2f1859daa675 # min aantal spelers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f9d056f-58ea-48dc-adf8-c4b1d7f7e47d
+            warning: null
+            width: 100
+          -
+            fieldUid: c423a26e-90ac-48c8-be36-c0993d9a7a04 # max aantal spelers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 378fb71f-42fb-4eb5-8a5b-0b67f0522df4
+            warning: null
+            width: 100
+          -
+            fieldUid: e1add974-a014-465a-a276-2422f84f0811 # minimum leeftijd
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d27cbfb1-6a78-4281-a235-78808e12d270
+            warning: null
+            width: 100
+          -
+            fieldUid: 4fa8c26d-70cf-4bf1-a26a-43ecf7eca855 # minimum leeftijd
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00774ed6-255b-43df-a7fb-68ba885fffc1
+            warning: null
+            width: 100
+        name: Content
+        uid: 3e8597cd-2336-4735-8fc7-e845d91f8b47
+handle: default
+hasTitleField: true
+name: Default
+section: 87107ab6-802f-468e-b113-53410157c297 # spellen
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

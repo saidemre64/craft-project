@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: inschrijvingNieuwsbrief
+name: 'inschrijving nieuwsbrief'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  aa670809-9a9d-4ecd-91ae-7ea0e9e17f29: # Examen Web Expert 2
+    enabledByDefault: true
+    hasUrls: true
+    template: inschrijving-nieuwsbrief/_entry
+    uriFormat: inschrijving-nieuwsbrief
+structure:
+  maxLevels: null
+  uid: 0609178b-d44e-4926-8481-adcbfb69aaaf
+type: structure

@@ -1,0 +1,19 @@
+columnSuffix: hreymmgk
+contentColumnType: text
+fieldGroup: e668e463-a178-46d0-8816-43214a2ee2e9 # spellen
+handle: spelId
+instructions: null
+name: id
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

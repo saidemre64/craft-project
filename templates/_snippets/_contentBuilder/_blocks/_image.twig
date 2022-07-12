@@ -1,0 +1,13 @@
+<div class="flex flex-wrap m-auto justify-center">
+  
+{#    Todo: gebruik onderstaande div om de afbeeldingen in te laden. Laad deze snippet enkel in wanneer eer effectief afbeeldingen werden toegevoegd#}
+   <div class="flex justify-center px-4 max-w-lg">
+       {% set images = block.image.all() %}
+    {% for image in images %}
+        <div class="w-full flex justify-center px-4">
+        <img src="{{ image.getUrl() }}" alt="">
+        </div>
+    {% endfor %}
+   </div>
+
+</div>

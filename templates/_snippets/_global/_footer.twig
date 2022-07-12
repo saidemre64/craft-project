@@ -1,0 +1,82 @@
+<footer>
+   <div class="py-8 bg-light">
+       <div class="container">
+           <div class="flex flex-wrap -mx-4">
+               <div class="flex w-full px-4 mt-4">
+                   <div class="w-1/3">
+
+                        {# Todo: implementeer hieronder het logo, gebruik hiervoor de onderstaande a-tag #}
+                       <a href="{{ siteUrl }}">
+                           {{ svg('@webroots/img/logo.svg')|attr({ class: 'w-full max-w-logo', role: 'img'}) }}
+                       </a>
+
+                       <h3 class="text-3xl">
+                            {# Todo: Haal de naam van de applicatie hier dynamisch op #}
+                            {{ systemName }}
+                       </h3>
+
+                        {# Todo: gebruik onderstaande div om de adresgegevens te tonen #}
+                       <div class="mt-6">
+                           <div>{{ adresGegevens.straatNr }}</div>
+                           <div>{{ adresGegevens.postcodeEnWoonplaats }}</div>
+                       </div>
+
+                        {# Todo: gebruik onderstaande div om het e-mailadres en het telefoonnummer te tonen #}
+                       <div class="mt-6">
+                           <div class="mb-2">
+                               {{ svg('@webroot/img/mail.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+                               <a class="no-underline hover:underline" href="mailto:"> {{ adresGegevens.eMail }}</a>
+                           </div>
+                           <div class="mb-2">
+                               {{ svg('@webroot/img/phone.svg')|attr({ class: 'inline-block w-5 h-5', role: 'img'}) }}
+                               <a href="tel:">{{ adresGegevens.telefoon }}</a>
+                           </div>
+                       </div>
+
+                        {# Todo: Laad hier de socialMedia snippet in #}
+                       {% include "_snippets/_global/_socialMedia.twig" %}
+                   </div>
+
+                   <div class="flex w-1/3 px-4 mt-4">
+                        {# Todo: laad hier de hoofdnavigatie in #}
+                        {% include "_snippets/_global/_nav/_mainNav.twig" %}
+                   </div>
+
+                   <div class="flex w-1/3 px-4 mt-4">
+                        {# Todo: laad hier de servicenavigatie in #}
+                        {% include "_snippets/_global/_nav/_serviceNav.twig" %}
+                   </div>
+
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="py-6">
+       <div class="container">
+           <div class="flex flex-wrap justify-between">
+               <div>
+
+                   <span>
+                        {# Todo: haal hier het huidige jaar en de naam van de applicatie op #}
+                        2022 {{ systemName }}
+                   </span>
+
+               </div>
+               <div class="flex flex-wrap">
+                   <div>
+
+                        {# Todo: gebruik onderstaande a tag om te linken naar de privacy policy #}
+                       <a class="mx-2" href="{{ siteUrl }}" target="_blank" rel="nofollow">privacy policy</a>
+
+                   </div>
+                   <div>
+
+                        {# Todo: gebruik onderstaande a tag om te linken naar de cookie policy #}
+                       <a class="mx-2" href="{{ siteUrl }}" target="_blank" rel="nofollow">cookie policy</a>
+
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</footer>

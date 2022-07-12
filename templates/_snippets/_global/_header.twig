@@ -1,0 +1,27 @@
+<header class="border-b-2 border-red-700">
+	<div class="container">
+		<div
+			class="flex items-center justify-between">
+
+			{# Todo: implementeer hier het logo, gebruik hiervoor de onderstaande a-tag #}
+			<a class="" href="{{ siteUrl }}">
+				{{ svg('@webroot/img/logo.svg')|attr({ class: 'w-full max-w-logo', role: 'img'}) }}
+			</a>
+
+			<div class="flex-col items-end md:flex">
+				<div>
+					<div class="relative w-full flex flex-wrap items-center justify-end py-2 pl-10 rounded-bl-lg">
+
+						<div class="flex items-center py-2">
+							{% include "_snippets/_global/_nav/_serviceNav.twig" %}
+						</div>
+
+					</div>
+				</div>
+				{% include "_snippets/_global/_nav/_mainNav.twig" %}
+
+				
+			</div>
+		</div>
+	</div>
+</header>

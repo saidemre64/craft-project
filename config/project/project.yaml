@@ -1,0 +1,185 @@
+dateModified: 1655286462
+elementSources:
+  craft\elements\Entry:
+    -
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - 'field:c02fccc5-f612-4cef-8e06-9afcc7d4eaa0'
+      type: native
+    -
+      heading: Singles
+      type: heading
+    -
+      key: 'single:4804c829-6fc0-403b-93ef-f407328aeb5d'
+      type: native
+    -
+      key: 'single:c2803807-8332-44de-8064-648f82f86bd4'
+      type: native
+    -
+      key: 'single:e9439fca-742d-4ee0-a7d2-735bb9af30f6'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:d4f5e7c6-b1ce-40af-bda4-d8610ea5eda1'
+      tableAttributes:
+        - postDate
+        - link
+        - 'field:af929047-edf4-43e5-aefd-2fc5503325a8'
+        - 'field:c02fccc5-f612-4cef-8e06-9afcc7d4eaa0'
+      type: native
+email:
+  fromEmail: student@pxl.be
+  fromName: 'Examen Web Expert 2'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    encryptionMethod: none
+    host: 127.0.0.1
+    password: ''
+    port: '1025'
+    timeout: '10'
+    useAuthentication: '0'
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  files:
+    hasUrls: true
+    name: Files
+    settings:
+      path: '@webroot/files'
+    type: craft\fs\Local
+    url: '@web/files'
+meta:
+  __names__:
+    0e310a2a-a4e8-46fc-9bf6-bb3cf9348f9d: 'schrijf je in' # schrijf je in
+    1a87c9e6-d959-4642-b86e-304026f3b0ab: Entry # Entry
+    1f170101-c1d4-4647-9a97-8e0bf74b6461: Contact # Contact
+    3b4fc9fe-6902-4b57-8932-3a5e2f77306f: 'inschrijving nieuwsbrief' # inschrijving nieuwsbrief
+    4cc22bfe-89fb-490b-89bd-6e4b0c4e1149: tekst # tekst
+    4f9bd671-eddf-44a8-b112-a01939066f0a: Link # Link
+    4fa8c26d-70cf-4bf1-a26a-43ecf7eca855: 'minimum leeftijd' # minimum leeftijd
+    7c1b11bf-b2d7-4829-9571-a055fd3a39f3: Formulier # Formulier
+    7eeed33b-48a0-4f9f-92ce-9a5324995656: 'Titel kolom 1' # Titel kolom 1
+    7f901268-d579-48b6-bfa3-fa760575c294: id # id
+    8baf006e-dc14-4e65-b634-adf4f3f7dd95: 'Minimum leeftijd' # Minimum leeftijd
+    9bf0c9f4-65af-460e-bb5e-814f7274ab45: youtube # youtube
+    9eb0182d-9859-4bb8-81d6-ceb7956e7f1f: type # type
+    13b44b30-4fee-4df4-b59d-23b7718182d9: loading # loading
+    22a6ea9f-a984-4ec7-9982-95edacedcc04: 'home intro' # home intro
+    28deddd8-83a4-47bd-832e-04a420a6caa1: 'Titel kolom 2' # Titel kolom 2
+    32ec1433-eb7e-4578-9c94-c902210e9e2f: TItel # TItel
+    32f99239-5ea5-4dfb-a022-59ce36f137f0: Default # Default
+    035d62e4-4f1f-41b7-8794-7221519bab85: Url # Url
+    37d8b71e-601f-443c-97ff-9651c9df1bdf: Titel # Titel
+    44d7695a-3b48-4429-a61d-f7eb2e34d798: Tekst # Tekst
+    46a2fa42-72ba-456f-93a6-b286baa71bb3: Text # Text
+    53c1eac6-ed4e-4f05-aea3-f1c058cca63c: link # link
+    061d5840-4b3e-42d8-9617-90950581aabb: Titel # Titel
+    63c2bb79-5eff-4eee-8a28-dd703fac04a2: Achtergrondafbeelding # Achtergrondafbeelding
+    65d721e9-8ff8-4675-8fc8-eda422ab3769: 'Social media' # Social media
+    66d7a629-27e5-4176-a9d2-7b639e2d9371: 'Text kolom 2' # Text kolom 2
+    77d99d74-38ac-4630-8cd9-74d1f6e18b55: link # link
+    83f5f7f6-56dd-4066-97f7-e0ee7d487505: 'straat en nummer' # straat en nummer
+    91b73bee-54e9-4adb-849f-f4a9c67356f1: 'inschrijving nieuwsbrief'
+    92eb7ed8-f277-4f4a-b6bc-f400a15edaf1: titel # titel
+    241b5290-ea5d-40de-a62a-571aae54e2d1: 'Examen Web Expert 2' # Examen Web Expert 2
+    319c2b23-e634-42fa-bb6e-0bd1ccaee7a5: 'min speeltijd' # min speeltijd
+    382bbd48-0dd8-4964-b2ed-fcacc308740d: Home # Home
+    495d2843-aa4f-4b8e-b944-046b487802ef: titel # titel
+    715e47a9-723b-46f7-b507-4334360bba42: 'Contact Form' # Contact Form
+    729c7fb2-f67c-40f0-a26f-5d352f097942: 'Achtergrond afbeelding' # Achtergrond afbeelding
+    916cbfda-c0fa-499a-85ff-14c27a38e306: New # New
+    1417f5d1-a8b3-4e2f-87a1-32670729bf9e: Common # Common
+    3209ee21-1fff-447d-acca-2bc5acbf4b92: Tekst # Tekst
+    3788e105-97d2-4789-b814-2db3743de7de: achtergrond # achtergrond
+    8491fafb-a230-4966-8aa0-2336bf7c5441: Home # Home
+    41144da1-a873-4f98-9dfb-fc9da6b40a1c: Default # Default
+    87107ab6-802f-468e-b113-53410157c297: spellen # spellen
+    89843fe1-e864-427c-b3d7-7ae55e3e3faa: Files # Files
+    110967a8-dd5f-4c85-b720-c21a4e7552c6: E-mail # E-mail
+    484677a3-9725-4a08-b06e-48f581deffe5: Link # Link
+    579939e8-cbbb-4a2c-8890-9b4a92314c17: afbeelding # afbeelding
+    0713851c-0ea0-436b-8131-17bbd1eb516f: Afbeeldingen # Afbeeldingen
+    811217d4-9c76-43ec-a816-5d6452bc5b4e: Default # Default
+    1154744b-7976-4548-9c74-fe343e0d6a6f: Titel # Titel
+    9341953b-49b0-4a8d-96d0-22258ef17c3f: New # New
+    48033176-11d8-48ec-ac84-3cdca61b0f3e: 'jaar van uitgave' # jaar van uitgave
+    54109262-b9b3-4848-a85d-e6cbd4b4e4f0: 'tekst button' # tekst button
+    81081185-84c2-470e-ba57-395de2c9b8c5: prijs # prijs
+    a7e1c1ee-5f07-482d-9edb-b0e89ae19ad8: tekst # tekst
+    a191c8cb-7c6a-4ca6-88b9-4ecb0fd50f0b: omschrijving # omschrijving
+    a4472dd4-d17f-4617-a4c8-e1dd386077e4: Afbeelding # Afbeelding
+    aa670809-9a9d-4ecd-91ae-7ea0e9e17f29: 'Examen Web Expert 2' # Examen Web Expert 2
+    abe62c05-5496-4048-b7ff-3c1e7caf8f8a: 'Al onze spellen' # Al onze spellen
+    ac8dac77-6f00-43c1-a141-c761a21e07ed: telefoon # telefoon
+    b7b0d227-38e2-4c5b-88e9-de3cb4200f88: 'max speeltijd' # max speeltijd
+    b13b476b-173a-4a6a-84fb-2b4f7f18b912: facebook # facebook
+    b654a82c-f0c8-41fb-9bd5-3db5310d81bc: 'call to action' # call to action
+    bcbe8ce7-be7c-4fd2-a19b-8ed8a69d9bf2: Linktekst # Linktekst
+    c3d1e348-99e2-48f2-90d8-5d1d2179e77e: 'Adres gegevens' # Adres gegevens
+    c423a26e-90ac-48c8-be36-c0993d9a7a04: 'max aantal spelers' # max aantal spelers
+    ca6b5f2a-a328-4afb-88d7-1c397f4868e4: 'Link tekst' # Link tekst
+    ca12eda8-d485-420d-bbbf-2f4c91100f30: 'postcode en woonplaats' # postcode en woonplaats
+    cc477f43-97dc-48ed-8ec7-194d9ca51d91: achtergrond # achtergrond
+    d345afb5-c74a-43bf-a5c5-39f5d2ebcb11: korting # korting
+    d4825f8d-a2da-4caf-8040-354a297e78b6: 'Contact Form' # Contact Form
+    db4a43cc-8599-4b44-a64e-d8bc3f5e0fea: Titel # Titel
+    de3e9c80-cd88-4638-a2c8-9746aa3f34d4: intro # intro
+    e06962c6-0a40-4bfb-990e-2f1859daa675: 'min aantal spelers' # min aantal spelers
+    e1add974-a014-465a-a276-2422f84f0811: 'minimum leeftijd' # minimum leeftijd
+    e668e463-a178-46d0-8816-43214a2ee2e9: spellen # spellen
+    f0bec9e7-a644-4b58-8dee-e8bbd601c12f: introSpellen # introSpellen
+    f76ccb63-7bfb-46da-aa61-d24faf6db4fa: Contact # Contact
+    f8516cd8-54ee-488f-b322-e72ac807051e: instagram # instagram
+    f809740d-e37b-4d15-8761-5553c8246910: Titel # Titel
+    f3947595-a54f-42e2-a849-8c0f860af92c: ondertitel # ondertitel
+    fc1d7c1e-8462-4a2e-acdc-c5d6b1abbbc0: 'Tekst kolom 1' # Tekst kolom 1
+plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: ZZT3SVMMBG8KZWSZXL1BE682
+    schemaVersion: 2.0.1
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: EHSGNBEWMZHF7XWKDTD3089Q
+    schemaVersion: 2.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: 'Examen Web Expert 2'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

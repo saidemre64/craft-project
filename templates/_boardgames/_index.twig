@@ -1,0 +1,49 @@
+{% extends "_layout.twig" %}
+{% block content %}
+
+{# Todo: Laad hier de hero snippet in #}
+{% include "_snippets/_item/_hero.twig" %}
+<div class="bg-red-100">
+	<div class="container mt-8">
+		<div class="flex mt-20 mb-8 pt-10">
+			<div>
+				<div id="all" class="no-underline text-white mx-2 px-4 py-2 font-bold bg-yellow-500 js-filter
+						                               hover:cursor-pointer hover:border-2 hover:border-red-700 hover:text-black hover:bg-light">
+					{{ "Alle spellen" }}
+				</div>
+			</div>
+
+			{#                 Todo: gebruik onderstaande div om de categorieën te tonen. Link de titel en het id op de juiste plaats.#}
+			<div>
+				<div id="" class="no-underline text-white mx-2 px-4 py-2 font-bold bg-red-700 js-filter
+				hover:cursor-pointer hover:border-2 hover:border-red-700 hover:text-black hover:bg-light">
+
+					{% set newsCats = craft.categories.group('minimumLeeftijd').all() %}
+
+					{% for cat in newsCats %}
+						<div id="{{ cat.id }}" class="mx-2 p-4 rounded-full font-bold border-2 hover:bg-blue-200 js-filter">{{ cat.title }}</div>
+					{% endfor %}
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="container py-12">
+
+		<div
+			class="w-full flex flex-wrap">{# Todo: toon hier alle bordspellen op #}
+            {% set games = craft.entries.section('spellen').all() %}
+
+
+            {% for element in games %}
+				{% include '_snippets/_item/_gameCard.twig'
+                with {
+                    classes: 'js-filter-item',
+                    elementIds: element.minimumLeeftijd.ids|join(", ")
+                } %}
+			{% endfor %}
+		</div>
+
+	</div>
+</div>
+{% endblock %}

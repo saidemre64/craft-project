@@ -1,0 +1,42 @@
+field: b654a82c-f0c8-41fb-9bd5-3db5310d81bc # call to action
+fieldLayouts:
+  647bbd89-e060-4a48-b9a9-e9fc5ed370ec:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 92eb7ed8-f277-4f4a-b6bc-f400a15edaf1 # titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 13dcef45-51b0-450f-a578-e30ba19c1bdf
+            warning: null
+            width: 100
+        name: Content
+        uid: 54d1e3f9-76d4-4b39-b49f-f4f2b182e4e8
+fields:
+  92eb7ed8-f277-4f4a-b6bc-f400a15edaf1: # titel
+    columnSuffix: qbnwvikg
+    contentColumnType: text
+    fieldGroup: null
+    handle: titel
+    instructions: null
+    name: titel
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: titel
+name: titel
+sortOrder: 1

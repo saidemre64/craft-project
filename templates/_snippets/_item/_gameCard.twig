@@ -1,0 +1,60 @@
+{% if classes is defined %}
+{% set newClasses = classes %}
+{% else %}
+{% set newClasses = "" %}
+
+
+{% endif %}
+
+{% if elementIds is defined %}
+	{% set ids = elementIds %}
+	{% else %}
+	{% set ids = "" %}
+{% endif %}
+
+
+
+
+<div class="w-1/3 min-h-full flex flex-wrap flex-col {{ newClasses }}" id="{{ ids }}">
+   <div class="cursor-pointer ml-0 mr-2 mb-4 ml-2 p-3 h-full rounded-lg
+               hover:translate-x-4 hover:shadow-md hover:border-2 hover:border-red-100 hover:bg-red-100 ">
+
+{#        Todo: gebruik onderstaande a tag on te linken naar de datailpagina.#}
+       <a href="">
+           <div class="">
+               <div class="box-border">
+
+{#                    Todo: gebruik onderstaande img tag om de afbeelding te tonen. Is er geen afbeelding beschikbaar, gebruik dan de global afbeelding#}
+                   <img class="box-border w-full max-w-full h-80 align-middle object-contain" src="{{ element.afbeelding }}" alt="">
+
+                   <div class="pt-10 box-border">
+                      
+                       <h4 class="uppercase font-bold text-2xl mx-2" >
+{#                            {Todo: toon hier de titel van het bordspel#}
+                        {{ element.titel }}
+                       </h4>
+                      
+                       <div class="mx-2 py-4">
+{#                            Todo: toon hier de intro van het bordspel afgekapt op 250 karakters#}
+                        {% if element.intro|length > 250 %}
+					{{ element.intro|slice(0, 250)|striptags ~ '...' }}
+				{% else %}
+					{{ element.intro }}
+				{% endif %}
+                       </div>
+                      
+                       <div class="w-full flex justify-end items-end mx-2 py-2">
+                          
+                           <div class="text-2xl">€
+{#                                Todo: toon hier de prijs van het bordspel#}
+
+                            {{ element.prijs }}
+                           </div>
+                          
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </a>
+   </div>
+</div>

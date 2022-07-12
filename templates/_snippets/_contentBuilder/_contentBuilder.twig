@@ -1,0 +1,24 @@
+<div
+	class="mt-20 py-16">
+	{#    Todo: Gebruik onderstaande div om de veschillende blokken in te laden#}
+	<div class="container">
+		<div
+			class="p-12 my-12">
+
+			{# Todo: laad hier het juiste blok in #}
+
+			{% set contentBuilder = entry.callToAction.all() %}
+
+			{% for block in contentBuilder %}
+				{% if block.status == 'enabled' %}
+					<div class="container">
+						<div class="p-6">
+							{% include '_snippets/_blockeditor/_blocks/_' ~ block.type.handle %}
+						</div>
+					</div>
+				{% endif %}
+
+			{% endfor %}
+		</div>
+	</div>
+</div>

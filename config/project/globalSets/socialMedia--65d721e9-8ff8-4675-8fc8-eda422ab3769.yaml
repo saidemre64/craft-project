@@ -1,0 +1,40 @@
+fieldLayouts:
+  d990015e-b747-4104-8d63-ef3110dfbb9d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b13b476b-173a-4a6a-84fb-2b4f7f18b912 # facebook
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85ef9b43-edaa-40b7-88e9-2bd8ddcfb0f2
+            warning: null
+            width: 100
+          -
+            fieldUid: f8516cd8-54ee-488f-b322-e72ac807051e # instagram
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: caeab4e2-4d3f-4880-a399-f7fb139d69b2
+            warning: null
+            width: 100
+          -
+            fieldUid: 9bf0c9f4-65af-460e-bb5e-814f7274ab45 # youtube
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebeb597f-567f-451a-9e2a-b36107728c3b
+            warning: null
+            width: 100
+        name: 'social media'
+        uid: 0240c345-c96e-458a-a2f5-53a16f5b05ac
+handle: socialMedia
+name: 'Social media'
+sortOrder: 2

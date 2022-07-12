@@ -1,0 +1,11 @@
+{% set subNav = craft.navigate.raw('subNav') %}
+<ul class="flex flex-wrap space-x-10">
+
+								{% for node in subNav %}
+                                {% if node|length %}
+									<li class="mx-4">
+										<a href="{{ node.url }}" class="font-bold text-l hover:underline">{{node.name}}</a>
+									</li>
+                                {% endif %}
+								{% endfor %}
+</ul>

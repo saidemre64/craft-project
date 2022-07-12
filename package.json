@@ -1,0 +1,14 @@
+{
+  "name": "examen_webexpert2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./frontend/css/main.css -o ./web/css/site.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

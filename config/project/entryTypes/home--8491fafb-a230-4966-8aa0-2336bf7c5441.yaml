@@ -1,0 +1,83 @@
+fieldLayouts:
+  e4136ff0-d47b-4311-bb6f-f003cd6e4b77:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 00e1723e-01b8-4d01-9632-b9918e568a49
+            warning: null
+            width: 100
+          -
+            fieldUid: 37d8b71e-601f-443c-97ff-9651c9df1bdf # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c28844ea-4414-47cb-99b0-53ec494d14de
+            warning: null
+            width: 100
+          -
+            fieldUid: f3947595-a54f-42e2-a849-8c0f860af92c # ondertitel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4f73931-b4e1-427f-8174-31157398a8da
+            warning: null
+            width: 100
+          -
+            fieldUid: 22a6ea9f-a984-4ec7-9982-95edacedcc04 # home intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40a8f721-5b4d-4896-a7b2-de4f84664e35
+            warning: null
+            width: 100
+        name: Content
+        uid: 9892800e-cda7-4224-ab44-4dfd7131ed74
+      -
+        elements:
+          -
+            fieldUid: b654a82c-f0c8-41fb-9bd5-3db5310d81bc # call to action
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 90b781cb-d3fc-411e-908d-c37bc1d0d710
+            warning: null
+            width: 100
+        name: matrix
+        uid: 64da4b35-8678-4e03-98ad-01fd4378e5c2
+handle: home
+hasTitleField: false
+name: Home
+section: 382bbd48-0dd8-4964-b2ed-fcacc308740d # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

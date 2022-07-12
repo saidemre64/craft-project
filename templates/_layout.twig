@@ -1,0 +1,26 @@
+{% set locale = craft.app.language|split('-') %}
+
+<!doctype html>
+<html lang="{{ locale[0] }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/site.css">
+    <title>{{ systemName }}</title>
+</head>
+<body>
+<div class="flex flex-col h-screen justify-between font-sans">
+
+		{% include "_snippets/_global/_header.twig" %}
+
+    <main class="mb-auto">
+        {% block content %}{% endblock %}
+    </main>
+
+		{% include "_snippets/_global/_footer.twig" %}
+
+</div>
+<script src="/js/main.js"></script>
+</body>
+</html>

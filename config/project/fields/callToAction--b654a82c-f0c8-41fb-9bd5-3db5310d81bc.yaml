@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1417f5d1-a8b3-4e2f-87a1-32670729bf9e # Common
+handle: callToAction
+instructions: null
+name: 'call to action'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_calltoaction}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

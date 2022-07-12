@@ -1,0 +1,57 @@
+field: b654a82c-f0c8-41fb-9bd5-3db5310d81bc # call to action
+fieldLayouts:
+  955332c7-82f1-425b-a0a5-8e037706dab3:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 77d99d74-38ac-4630-8cd9-74d1f6e18b55 # link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 651dc432-22e3-4fd7-8ab0-74f7698fb7c9
+            warning: null
+            width: 100
+        name: Content
+        uid: 0121bf13-fe06-4280-8aaf-d9f76b098f44
+fields:
+  77d99d74-38ac-4630-8cd9-74d1f6e18b55: # link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkContact
+    instructions: null
+    name: link
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'single:f76ccb63-7bfb-46da-aa61-d24faf6db4fa' # Contact
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: link
+name: link
+sortOrder: 4

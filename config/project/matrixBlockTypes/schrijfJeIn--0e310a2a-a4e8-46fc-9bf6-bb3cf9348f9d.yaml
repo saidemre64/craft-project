@@ -1,0 +1,42 @@
+field: b654a82c-f0c8-41fb-9bd5-3db5310d81bc # call to action
+fieldLayouts:
+  484eeccb-f34b-4b71-99f0-0fae399ee7f9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 54109262-b9b3-4848-a85d-e6cbd4b4e4f0 # tekst button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62237c0c-740b-47c0-bcdb-78a2d9f0c39e
+            warning: null
+            width: 100
+        name: Content
+        uid: a225707a-7166-4bbb-8cca-3a18f0ae374a
+fields:
+  54109262-b9b3-4848-a85d-e6cbd4b4e4f0: # tekst button
+    columnSuffix: aoxchgfk
+    contentColumnType: text
+    fieldGroup: null
+    handle: tekstButton
+    instructions: 'schrijf je in'
+    name: 'tekst button'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: schrijfJeIn
+name: 'schrijf je in'
+sortOrder: 3

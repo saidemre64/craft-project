@@ -1,0 +1,6 @@
+adminOnly: 1
+allowSources: '*'
+enabledSiteGroups: '*'
+handle: subNav
+levels: '1'
+title: Servicenavigatie

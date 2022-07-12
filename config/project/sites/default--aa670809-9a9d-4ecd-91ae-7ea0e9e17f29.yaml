@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Examen Web Expert 2'
+primary: true
+siteGroup: 241b5290-ea5d-40de-a62a-571aae54e2d1 # Examen Web Expert 2
+sortOrder: 1

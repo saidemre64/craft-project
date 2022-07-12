@@ -1,0 +1,18 @@
+<div class="flex flex-wrap -mx-4">
+    {% set blockImage = block.image.one() %}
+    {% if blockImage %}
+        <div class="w-1/2 px-4">
+            <picture class="w-full">
+                <img src="{{ blockImage.url }}" alt="">
+            </picture>
+        </div>
+    {% endif %}
+    <div class="{% if blockImage %} w-1/2 {% else %} w-3/4 {% endif %} px-4">
+        {% if block.blockTitle|length %}
+            <h2 class="text-3xl font-bold text-red-700 mb-4">{{ block.blockTitle }}</h2>
+        {% endif %}
+        <div>
+            {{ block.text }}
+        </div>
+    </div>
+</div>

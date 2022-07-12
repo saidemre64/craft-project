@@ -1,0 +1,20 @@
+fieldLayouts:
+  55405801-592c-4fdf-8ae0-9f5e99d10c3b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 579939e8-cbbb-4a2c-8890-9b4a92314c17 # afbeelding
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cced61a4-43ef-4b1d-8b6b-85208cb66f15
+            warning: null
+            width: 100
+        name: foto
+        uid: bec6257b-5e61-4ea2-a4f5-528580e5de0b
+handle: loading
+name: loading
+sortOrder: 4

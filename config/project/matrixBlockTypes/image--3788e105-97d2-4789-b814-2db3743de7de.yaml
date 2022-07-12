@@ -1,0 +1,69 @@
+field: b654a82c-f0c8-41fb-9bd5-3db5310d81bc # call to action
+fieldLayouts:
+  82aa5e43-6e53-40e8-bb41-6ac7d77a48c1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: cc477f43-97dc-48ed-8ec7-194d9ca51d91 # achtergrond
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c3e5771-c30d-4a39-b661-ef6d4fb761d1
+            warning: null
+            width: 100
+        name: Content
+        uid: 0320e157-3d85-493c-89cc-50f46e596159
+fields:
+  cc477f43-97dc-48ed-8ec7-194d9ca51d91: # achtergrond
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: achtergrond
+    instructions: null
+    name: achtergrond
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:89843fe1-e864-427c-b3d7-7ae55e3e3faa' # Files
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:89843fe1-e864-427c-b3d7-7ae55e3e3faa' # Files
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: achtergrond
+sortOrder: 5

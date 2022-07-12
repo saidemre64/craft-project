@@ -1,0 +1,19 @@
+columnSuffix: zowkkfaw
+contentColumnType: text
+fieldGroup: 1417f5d1-a8b3-4e2f-87a1-32670729bf9e # Common
+handle: inschrijvingNieuwsbrief
+instructions: null
+name: 'inschrijving nieuwsbrief'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,54 @@
+fieldLayouts:
+  e2d24643-b369-4b62-ae6c-7628b387e62d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 83f5f7f6-56dd-4066-97f7-e0ee7d487505 # straat en nummer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 870e174f-b816-4d26-930e-a1e8a68043a2
+            warning: null
+            width: 100
+          -
+            fieldUid: ca12eda8-d485-420d-bbbf-2f4c91100f30 # postcode en woonplaats
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55681b88-e5c4-438b-9537-db6fc35ae6d0
+            warning: null
+            width: 100
+        name: adres
+        uid: a9df9b02-57f2-4836-a9bc-ab658a44aae0
+      -
+        elements:
+          -
+            fieldUid: 110967a8-dd5f-4c85-b720-c21a4e7552c6 # E-mail
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c47e33d-00fb-43e1-b5e4-1071bffeb34e
+            warning: null
+            width: 100
+          -
+            fieldUid: ac8dac77-6f00-43c1-a141-c761a21e07ed # telefoon
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9c947b3-5309-4209-8234-9ba85467f276
+            warning: null
+            width: 100
+        name: contact
+        uid: 5d729a12-1ba4-43bd-9d1d-33ebbe32df86
+handle: adresGegevens
+name: 'Adres gegevens'
+sortOrder: 1
